@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:background="#808080"
+        >
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/Active_shooter"
+            android:text="Criminal Activities"
+            android:textSize="30dp"
+            android:textColor="#FFF"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            >
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/Active_shooter"
+            android:background="#808080"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/text1"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textColor="#FFF"
+                android:layout_gravity="center"
+                android:text=" 1. PROTECTING YOURSELF. Avoid walking by yourself at night, particularly though poorly lit areas"
+                android:textAlignment="center"
+                android:layout_marginBottom="20dp"
+                >
+            </TextView>
+
+            <TextView
+                android:id="@+id/text2"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textColor="#FFF"
+                android:layout_gravity="center"
+                android:text="2. WATCH FOR SUSPICIOUS DRUG ACTIVITY.Drug houses, where illegal drugs are bought and sold,If you notice the signs of drug activity surrounding a house in your neighborhood, take note, and contact the police."
+                android:textAlignment="center"
+                android:layout_marginBottom="20dp"
+                >
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/text3"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textColor="#FFF"
+                android:layout_gravity="center"
+                android:text="3. CONTACT LOCAL LAW ENFORCEMENT. If an emergency is imminent, dial 9-1-1. If not, contact your local police department. When you report a crime, be sure to have all the details ready."
+                android:textAlignment="center"
+                android:layout_marginBottom="20dp"
+                >
+            </TextView>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

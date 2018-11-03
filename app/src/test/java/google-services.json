@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "888568603915",
+    "firebase_url": "https://girlpower-b4db1.firebaseio.com",
+    "project_id": "girlpower-b4db1",
+    "storage_bucket": "girlpower-b4db1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888568603915:android:6f6681e126da83c1",
+        "android_client_info": {
+          "package_name": "com.example.admin.girlpower"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "888568603915-amkiqkepgcr5puofreut0jd4e9t8bt21.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.girlpower",
+            "certificate_hash": "f11cdea42e9470b6ef2914d3c9aed24917da8685"
+          }
+        },
+        {
+          "client_id": "888568603915-a8l9r7qbnbs3h31pk8inl8roj4pu6ukl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgib_weqZcQOd9iFptZMTuKUCDnxOTwhA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "888568603915-a8l9r7qbnbs3h31pk8inl8roj4pu6ukl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

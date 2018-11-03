@@ -1,0 +1,31 @@
+<?xml version="1.j0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About">
+
+
+    <!--Basically tells the user about the app.-->
+        <TextView
+            android:id="@+id/about_text"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp"
+            android:text="The App provides easy and quick access to victims of Gender Based Violence (GBV) related crimes to help be it thePolice,Social Workers,Family etc.
+
+    The App will serve as platform to report incidents related to GBV."
+       >
+
+
+
+
+        </TextView>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User_inf">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:background="#FFF"
+        android:gravity="top"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+        <EditText
+            android:id="@+id/Name"
+            android:textSize="17dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:textColorHint="@color/colorAccent"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/colorAccent" />
+
+
+
+        <EditText
+            android:id="@+id/Surname"
+            android:textSize="17dp"
+            android:layout_marginBottom="10dp"
+            android:textColorHint="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true"
+            android:hint="Surname"
+            android:imeOptions="actionUnspecified"
+            android:textColor="@color/colorAccent" />
+
+        <EditText
+            android:id="@+id/user_email"
+            android:textSize="17dp"
+            android:layout_marginBottom="10dp"
+            android:textColorHint="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true"
+            android:hint="Email"
+            android:imeOptions="actionUnspecified"
+            android:textColor="@color/colorAccent" />
+
+        <EditText
+            android:id="@+id/User_phone"
+            android:textSize="17dp"
+            android:layout_marginBottom="10dp"
+            android:textColorHint="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true"
+            android:hint="Phone"
+            android:inputType="phone"
+            android:imeOptions="actionUnspecified"
+            android:textColor="@color/colorAccent" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please Enter 3 Emergency contacts that will be contacted in case of an emergency !"
+            android:textSize="18dp"
+
+            />
+
+
+        <EditText
+            android:id="@+id/Emergency_1"
+            android:textSize="17dp"
+            android:layout_marginBottom="10dp"
+            android:textColorHint="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true"
+            android:hint="Emergency 1"
+            android:inputType="phone"
+            android:imeOptions="actionUnspecified"
+            android:textColor="@color/colorAccent" />
+
+
+        <EditText
+            android:id="@+id/Emergency_2"
+            android:textSize="17dp"
+            android:layout_marginBottom="10dp"
+            android:textColorHint="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true"
+            android:hint="Emergency 2"
+            android:inputType="phone"
+            android:imeOptions="actionUnspecified"
+            android:textColor="@color/colorAccent" />
+
+
+        <EditText
+            android:id="@+id/Emergency_3"
+            android:textSize="17dp"
+            android:layout_marginBottom="5dp"
+            android:textColorHint="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true"
+            android:hint="Emergency 3"
+            android:inputType="phone"
+            android:imeOptions="actionUnspecified"
+            android:textColor="@color/colorAccent" />
+
+
+        <Button
+            android:id="@+id/save_btn"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            style="@style/button_style"
+            android:text="Save"
+            />
+
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="20dp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

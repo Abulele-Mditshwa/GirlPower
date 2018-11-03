@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!--Sorts out our menus in one group-->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/notifications"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="Notifications" />
+        <item
+            android:id="@+id/options"
+            android:icon="@drawable/ic_announcement_black_24dp"
+            android:title="Options in an Emergency" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Settings" />
+    </group>
+</menu>
